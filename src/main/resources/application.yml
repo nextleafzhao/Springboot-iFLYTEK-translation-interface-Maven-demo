@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+# 将首选json映射器设置为gson
+spring:
+  http:
+    converters:
+      preferred-json-mapper: gson
