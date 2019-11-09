@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>翻译</title>
+</head>
+<body>
+<form action="http://localhost:8080/springboot/translate" method="post">
+    <label>翻译文本
+        <input name="source">
+    </label><br>
+    <label>源语种
+        <select name="from">
+            <option value="cht">中文(繁体)</option>
+            <option value="cn" selected>中文(简体</option>
+            <option value="en">英语</option>
+            <option value="ja">日语</option>
+            <option value="ko">韩语</option>
+            <option value="ru">俄语</option>
+            <option value="fr">法语</option>
+            <option value="it">意大利语</option>
+            <option value="es">西班牙语</option>
+            <option value="th">泰语</option>
+            <option value="ti">藏语</option>
+            <option value="de">德语</option>
+            <option value="el">希腊语</option>
+            <option value="mn">蒙古语(西里尔)</option>
+            <option value="fi">芬兰语</option>
+            <option value="uy">维吾尔语</option>
+            <option value="nl">荷兰语</option>
+            <option value="vi">越南语</option>
+            <option value="no">挪威语</option>
+            <option value="yue">广东话</option>
+            <option value="hi">印地语</option>
+            <option value="pl">波兰语</option>
+        </select>
+    </label>&nbsp;&nbsp;&nbsp;
+    <label>目标语种
+        <select name="to">
+            <option value="cn">中文(简体</option>
+            <option value="cht">中文(繁体)</option>
+            <option value="en" selected>英语</option>
+            <option value="ja">日语</option>
+            <option value="ko">韩语</option>
+            <option value="ru">俄语</option>
+            <option value="fr">法语</option>
+            <option value="it">意大利语</option>
+            <option value="es">西班牙语</option>
+            <option value="th">泰语</option>
+            <option value="ti">藏语</option>
+            <option value="de">德语</option>
+            <option value="el">希腊语</option>
+            <option value="mn">蒙古语(西里尔)</option>
+            <option value="fi">芬兰语</option>
+            <option value="uy">维吾尔语</option>
+            <option value="nl">荷兰语</option>
+            <option value="vi">越南语</option>
+            <option value="no">挪威语</option>
+            <option value="yue">广东话</option>
+            <option value="hi">印地语</option>
+            <option value="pl">波兰语</option>
+        </select>
+    </label><input type="submit" value="翻译"><br>
+    <span id="trans_result"></span>
+</form>
+</body>
+</html>
